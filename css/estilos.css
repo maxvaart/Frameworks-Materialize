@@ -1,0 +1,116 @@
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    background-size:auto 90%;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: black;
+}
+
+.nav{
+    margin-top: 25px;
+}
+.logo{
+    max-width: 200px;
+}
+
+li{
+    margin: 3px;
+    display:inline-block;
+}
+barra{
+    display: flex;
+    flex-flow: column;
+}
+
+.lateral img{
+    width: 45px;
+    margin-top: 5px;
+}
+
+.fotos .foto{
+    box-shadow: 7px 10px 13px grey;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 0px;
+    border-radius: 15px;    
+}
+.card{
+    box-shadow: 7px 10px 13px grey;
+    margin: 15px 20px 10px 15px !important;
+    border-radius: 15px; 
+}
+.articulos .rambla img{
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.articulos h2{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.chip{
+    margin: 10px 10px;
+}
+.autor{
+    float: right !important;
+}
+.autor img{
+    text-align: center;
+}
+h4{
+    text-decoration: underline;
+}
+.input-field input[type=text]:focus + label {
+     color: white !important;
+}
+.input-field input[type=email]:focus + label {
+     color: white !important;
+}
+.input-field textarea:focus + label {
+     color: white !important;
+}
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid white;
+     box-shadow: 0 1px 0 0 white !important;
+}
+.input-field input[type=email]:focus {
+     border-bottom: 1px solid white;
+     box-shadow: 0 1px 0 0 white !important;
+}
+.input-field textarea:focus {
+     border-bottom: 1px solid white;
+     box-shadow: 0 1px 0 0 white !important;
+    margin-top: 1px;
+}
+@media (min-width:600px){
+    .titulo{
+    margin-left: 10px;
+    font-size: 50px;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+}
+@media (max-width:599px){
+    .titulo{
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 0px;
+    text-decoration: underline;
+    text-align: center;
+    float: left !important;
+}
+    .card{
+    margin: 5px !important;
+    float: none;
+    display:block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+}
+}
